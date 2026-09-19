@@ -1,0 +1,32 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Per-token runs and resumable fetch caches
+tok_*/
+event_batches/
+events.jsonl
+signatures.json
+fetch_manifest.json
+metadata.json
+done_batches.txt
+
+# Generated analysis outputs
+traders_*.csv
+wallet_scorecards.csv
+smart_money.csv
+good_traders.csv
+sniper_insiders.csv
+elite_both.csv
+summary.json
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local tooling noise
+.DS_Store
+.pytest_cache/
